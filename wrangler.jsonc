@@ -1,0 +1,5 @@
+{
+    "name": "cloudflare-hono-waitlist-template",
+    "compatibility_date":"2026-08-15",
+    "main": "src/server/index.ts"
+}
