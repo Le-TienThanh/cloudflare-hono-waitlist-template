@@ -6,6 +6,13 @@
         "directory": "./dist",
         "binding": "ASSETS"
     },
+    "d1_databases": [
+        {
+            "binding": "dojo_local_db",
+            "database_name": "dojo_local_db",
+            "database_id": "123456"
+        }
+    ],
     "env": {
         "staging": {
             "vars": {
