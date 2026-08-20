@@ -2,6 +2,9 @@ import { createMiddleware } from "hono/factory";
 import { jwtVerify, createRemoteJWKSet } from "jose";
 
 export const accessAuth = createMiddleware(async (c, next) => {
+  if (c.env.ENVIRONMENT === 'development'){
+    await next();
+  }
   if (!c.env.POLICY_AUD) {
     return c.json("Missing required audience", 403);
   }

@@ -11,7 +11,7 @@
             "vars": {
                 "ENVIRONMENT": "staging",
                 "CF_ACCESS_DOMAIN": "https://thanhledev.cloudflareaccess.com",
-                "POLICY_AUD": "4e3e20627b14c9a3e3c71ee6638fc0036a201a93e521458519421831a718bdf6"
+                "POLICY_AUD": "b870f590ad9d725bdf536d161f211896f9935775fe535213bf81d0bc2a74d9a5"
             }
         },
         "production": {
