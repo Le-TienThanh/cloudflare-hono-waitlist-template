@@ -12,12 +12,19 @@
                 "ENVIRONMENT": "staging",
                 "CF_ACCESS_DOMAIN": "https://thanhledev.cloudflareaccess.com",
                 "POLICY_AUD": "b870f590ad9d725bdf536d161f211896f9935775fe535213bf81d0bc2a74d9a5"
-            }
+            },
+            "d1_databases": [
+                {
+                    "binding": "dojo_staging_db",
+                    "database_name": "dojo_staging_db",
+                    "database_id": "2f6a3da4-ffea-452c-a80c-51b6c3c8f38a"
+                }
+            ]
         },
         "production": {
             "vars": {
                 "ENVIRONMENT": "production"
             }
         }
-    }
+    },
 }
